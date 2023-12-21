@@ -1,0 +1,13 @@
+build*
+.vscode
+./.cache* - ignore all directories that start with cache
+```
+```
+./build* - ignore all directories that start with build
+```
+```
+**/*.cache
+
+**/build/** - ignore all directories named build
+```
+```
